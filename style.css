@@ -1,0 +1,22 @@
+body {
+    display: inline-block;
+    background-color: skyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.griglia {
+    display: grid;
+    grid-template-columns: repeat(8, 50px); 
+    grid-gap: 5px;
+    
+  }
+
+  .cella {
+    border: 3px solid #550101;
+    padding: 10px; 
+    text-align: center;
+    border-radius: 30%;
+  }
